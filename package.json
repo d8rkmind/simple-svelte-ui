@@ -1,6 +1,6 @@
 {
   "name": "simple-svelte-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "svelte": "src/index.js",
   "scripts": {
     "dev": "rollup -c -w",
@@ -12,6 +12,9 @@
     "ui",
     "button"
   ],
+  "author": "Syam SV <d8rkmind>",
+  "license": "MIT",
+
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
@@ -24,5 +27,13 @@
   },
   "dependencies": {
     "sirv-cli": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d8rkmind/simple-svelte-ui.git"},
+  "bugs": {
+    "url": "https://github.com/d8rkmind/simple-svelte-ui/issues" 
+  },
+  "homepage": "https://github.com/d8rkmind/simple-svelte-ui"
+
 }

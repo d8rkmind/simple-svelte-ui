@@ -42,11 +42,11 @@
     {:else if variant === "contained"}
         <Button
             on:click
-            backgroundColor="#2476d2"
+            backgroundColor={colors[color].color}
             textDecoration="none"
             fontWeight="normal"
             color="#fff"
-            rippleColor="#9cc2e87a"
+            rippleColor={colors[color].rippleColor}
             texttransform="uppercase"
         >
             <slot />
