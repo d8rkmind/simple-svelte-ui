@@ -12,7 +12,8 @@
     let textDecoration = "none";
     let rippleColor = "rgba(102, 102, 102, 0.274)";
     let rippleDuration = "200ms";
-    let ripple = true;
+    let ripple ="true";
+    let texttransform = "none";
     export {
         ripple,
         rippleColor,
@@ -28,6 +29,7 @@
         borderStyle,
         borderWidth,
         backgroundColor,
+        texttransform
     };
 </script>
 
@@ -35,7 +37,7 @@
     style="--bgbutton:{backgroundColor};--buttonborderThickness:{borderWidth};--buttonborderStyle:{borderStyle};--buttonborderColor:{borderColor}
     ;--buttonborderRadius:{borderRadius}; --buttoncolor:{color}; --buttoncursor:{cursor}; --buttonfontSize:{fontSize}; --buttonfontWeight:{fontWeight};
     --buttonpadding:{padding}; --buttontextDecoration:{textDecoration}; --buttonrippleColor:{rippleColor}; --buttonrippleDuration:{rippleDuration}
-    ;--buttonripple:{ripple ? 1 : 0}"
+    ;--buttonripple:{ripple =='true' ? 1 : 0}; --buttontexttransform:{texttransform};"
 >
     <button class="btn" on:click><slot /></button>
 </div>
@@ -57,6 +59,7 @@
         text-decoration: var(--buttontextDecoration);
         transition: all 0.3s ease-in-out;
         position: relative;
+        text-transform: var(--buttontexttransform);
     }
     .btn::before {
         content: "";
