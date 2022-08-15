@@ -1,15 +1,33 @@
-# Svelte Simple UI
+# Simple Svelte UI
+
+A simple and minimalist UI library for Svelte.
+
+## Installation
+
+Install svelte-simple-ui with npm
+
+```bash
+npm install svelte-simple-ui
+```
+
+Install svelte-simple-ui with yarn
+
+```bash
+yarn add svelte-simple-ui
+```
+
+## Usage/Examples
 
 To see a working demo of **simple-svelte-ui**
 
 ```bash
-> npm install 
-> npm run dev 
+npm install 
+npm run dev 
 ```
 
 How to use
 
-```svelte
+```js
 <script>
  import {Button} from 'simple-svelte-ui'
 </script>

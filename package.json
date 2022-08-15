@@ -1,12 +1,12 @@
 {
-  "name": "simple-svelte-test",
+  "name": "simple-svelte-ui",
   "version": "0.0.1",
   "svelte": "src/index.js",
   "scripts": {
-    "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
-  },"keywords": [
+  },
+  "keywords": [
     "svelte",
     "simple",
     "ui",
@@ -23,6 +23,6 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^2.0.0"
+    "sirv-cli": "^2.0.2"
   }
 }
